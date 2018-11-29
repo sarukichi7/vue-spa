@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>vue-spa</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDRmNuUi2W_lJz0sbx4GYOkjCWAS3ePbE0",
+        authDomain: "vue-app-me.firebaseapp.com",
+        databaseURL: "https://vue-app-me.firebaseio.com",
+        projectId: "vue-app-me",
+        storageBucket: "vue-app-me.appspot.com",
+        messagingSenderId: "1083192506526"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
